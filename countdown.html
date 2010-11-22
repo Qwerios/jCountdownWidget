@@ -1,0 +1,139 @@
+<style type="text/css">
+.eesCountdown
+{
+	background-color:		#E8DCC8;
+	border:					1px solid #666666;
+	border-radius:			4px;
+	-webkit-border-radius: 	4px;
+	-moz-border-radius: 	4px;
+	color:                  #8C8373;
+    font-family:            Verdana;
+    font-size:              12px;
+    overflow:               hidden;
+	padding:                5px;
+	width:                  300px;
+}
+
+.eesCountdown .cell 
+{
+    border-bottom:          1px solid #C9C6BF;
+    float:                  left;
+    padding-bottom:         2px;
+}
+
+.eesCountdown .startdate, .eesCountdown .enddate
+{
+    padding-bottom:         4px;
+    width:                  50%;
+}
+
+.eesCountdown .startdate .value, .eesCountdown .enddate .value
+{
+    font-size:              10px;
+}
+
+.eesCountdown .days, .eesCountdown .time 
+{
+    height:                 60px;
+    padding-top:            5px;    
+}
+
+.eesCountdown .days
+{
+    width:                  30%;
+}
+
+.eesCountdown .days .value
+{
+    font-size:              36px;
+}
+
+.eesCountdown .hours .value
+{
+    font-size:              24px;
+}
+
+
+.eesCountdown .time
+{
+    width:                  70%;
+}
+
+.eesCountdown .time > div {
+    float:                  left;
+    padding-left:           5px;
+    width:                  33%;
+}
+
+.eesCountdown .title {
+    display:                block;
+    font-variant:           small-caps;
+    font-size:              0.8em;
+}
+
+.eesCountdown .progress
+{
+    float:                  left;
+    padding-top:            5px;
+    width:                  100%;
+}
+
+.eesCountdown .progress .bar > div
+{
+    float:                  left;
+    width:                  100%;
+}
+
+.eesCountdown .progress .bar .value
+{
+	background-color:       #8C8373;
+    height:                 8px;
+    width:                  0%;
+}
+
+.eesCountdown .progress .text
+{
+    font-size:              9px;
+    font-weight:            bold;
+    text-align:             center;
+    vertical-align:         middle;
+}</style>
+
+<div class="eesCountdown">
+    <div class="startdate cell">
+        <span class="title">Startdate</span>
+        <span class="value">[startdate]</span>
+    </div>	
+    
+    <div class="enddate cell">
+        <span class="title">Enddate</span>
+        <span class="value">[startdate]</span>
+    </div>	
+    
+    <div class="days cell">
+        <span class="title">Days</span>
+        <span class="value">365</span>
+    </div>
+
+    <div class="time cell">
+        <div class="hours">
+            <span class="title">Hours</span>
+            <span class="value">24</span>
+        </div>
+        <div class="minutes">
+            <span class="title">Minutes</span>
+            <span class="value">59</span>
+        </div>
+        <div class="seconds">
+            <span class="title">Seconds</span>
+            <span class="value">59</span>
+        </div>
+    </div>   
+    
+    <div class="progress">
+        <div class="bar">
+            <div class="value"></div>
+            <div class="text">0%</div>
+        </div>
+    </div>     
+</div>

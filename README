@@ -1,0 +1,15 @@
+jCountdownWidget
+
+by Mark Doeswijk
+Eagle Eyes Software
+http://www.qwerios.nl/
+
+3rd party libs:
+---------------
+Widget factory class courtesy of jQuery UI (http://jqueryui.com/)
+
+Description:
+------------
+The jCountDown widget was written for a friend of mine to make attractive and simple countdown timers. He was used to having a refreshing PHP page but he wanted more. With this widget he could serve multiple countdowns to the client in one page with no required refreshes. I'm now using this wiget at work as a tutorial on how to make widgets so I thought I'd share it with the world. 
+
+A corresponding tutorial will be posted on my blog: (link follows)
